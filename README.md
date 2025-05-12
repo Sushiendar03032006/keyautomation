@@ -1,13 +1,13 @@
-## Aim:
+# Aim:
 To use UiPath to automate the process of opening Notepad, typing text, applying basic keyboard shortcuts (Select All, Copy, Paste), and simulating human-like interactions with the desktop application.
 
-## Software Required:
+# Software Required:
 ```
 1.UiPath Studio (with UiPath.UIAutomation.Activities package).
 2.Notepad.
 ```
 
-## Procedure:
+# Procedure:
 # 1.Start Process to Open Notepad:
    a.Drag Start Process activity into the workflow.
    b.In the FileName property, enter "notepad.exe".
@@ -34,5 +34,17 @@ To use UiPath to automate the process of opening Notepad, typing text, applying 
        Set Modifier to "ctrl" (Ctrl + V).
 
 ## Workflow:
+![Screenshot 2025-05-12 091028](https://github.com/user-attachments/assets/be4f5fbc-10b4-4a29-9d64-0f9e3727ff31)
+![Screenshot 2025-05-12 091046](https://github.com/user-attachments/assets/982cd0f0-48e6-4fc6-92f3-762bff284147)
+![Screenshot 2025-05-12 091052](https://github.com/user-attachments/assets/7c202503-a3d9-456b-9bbb-900f5a72671d)
+
+
+# Output:
+![Screenshot 2025-05-12 092941](https://github.com/user-attachments/assets/21dffeb9-cbfb-4067-b2cc-ce4487b586b6)
+
+# Result:
+Notepad opens automatically, the text is typed and line-breaked, then selected (Ctrl + A), copied (Ctrl + C), and pasted (Ctrl + V) — all automated to simulate human interaction using UiPath.
+
+
 
 
